@@ -1,0 +1,14 @@
+[package]
+name = "zsim-hooks"
+version = "0.1.0"
+authors = ["Zixian Cai <u5937495@anu.edu.au>"]
+edition = "2021"
+license = "MIT"
+description = "Hooks for zsim"
+repository = "https://github.com/caizixian/zsim-hooks-rs"
+
+[[bin]]
+path = "src/zsim_hooks_test.rs"
+name = "zsim-hooks-test"
+
+[dependencies]
